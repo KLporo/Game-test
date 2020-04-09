@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://bloco.png" type="Texture" id=1]
+[ext_resource path="res://ceiu.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ceiu" type="Sprite" parent="."]
+position = Vector2( 198.36, 561.933 )
+scale = Vector2( 2.93014, 2.53623 )
+texture = ExtResource( 2 )
+
+[node name="bloco" type="Sprite" parent="."]
+position = Vector2( 46.4801, 558.063 )
+scale = Vector2( 2.93014, 2.53623 )
+texture = ExtResource( 1 )
